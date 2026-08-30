@@ -261,6 +261,28 @@ dotnet test -c Release GpuBenchmarks.sln
 xUnit suite covering runner statistics, CLI parsing, weak-scaling math, CPU validation
 and end-to-end smoke runs.
 
+## Thesis
+
+This suite is the practical component of my master's thesis
+*Parallelization of Computations Using Graphics Cards*
+(Silesian University in Opava, 2026, supervised by doc. Ing. Jan Górecki, Ph.D.):
+
+- [Thesis (PDF)](docs/thesis.pdf) — in Czech, with an English abstract
+- [Defense slides (PPTX)](docs/thesis-defense-slides.pptx)
+
+> **Abstract.** This thesis explores the possibilities of parallelizing computations. The
+> theoretical section describes the basic principles of parallel computing, the differences
+> between sequential and parallel approaches, types of parallelism, as well as Amdahl's and
+> Gustafson's laws. It also describes GPU architecture and provides an overview of available
+> technologies for GPU computing, including CUDA, OpenCL, and tools for C#/.NET. The
+> practical section implements two computationally intensive tasks, matrix multiplication
+> and the Game of Life cellular automaton, in three variants: sequential CPU, parallel CPU,
+> and GPU using the ILGPU and ComputeSharp libraries in C#. The thesis presents experiments
+> on weak and strong scalability for the CPU variant, which are compared with predictions
+> based on Amdahl's and Gustafson's laws. For the GPU variant, the thesis measures
+> performance dependencies on input data size, compares measured data from both C#
+> libraries, and identifies crossover points between CPU and GPU.
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
