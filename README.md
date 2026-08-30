@@ -1,6 +1,6 @@
 # GPU Benchmark Suite
 
-[![.NET](https://github.com/JaKuBisz/gpu-benchmarks/actions/workflows/dotnet.yml/badge.svg)](https://github.com/JaKuBisz/gpu-benchmarks/actions/workflows/dotnet.yml)
+[![.NET](https://github.com/JaKuBisz/gpu-vs-cpu-benchmarks/actions/workflows/dotnet.yml/badge.svg)](https://github.com/JaKuBisz/gpu-vs-cpu-benchmarks/actions/workflows/dotnet.yml)
 [![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![ILGPU](https://img.shields.io/badge/ILGPU-1.5.3-orange)](https://ilgpu.net/)
 [![ComputeSharp](https://img.shields.io/badge/ComputeSharp-3.1.0-blue)](https://github.com/Sergio0694/ComputeSharp)
